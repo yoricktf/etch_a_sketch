@@ -1,0 +1,18 @@
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+
+.cells {
+    border: 1px solid black;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(16, 6.25fr);
+    grid-template-rows: repeat(16, 66.25fr);
+    background-color: rgb(23, 23, 122);
+    height: 100vh;
+    width: 100vw;
+}
