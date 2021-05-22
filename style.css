@@ -2,17 +2,25 @@ body {
     padding: 0%;
     margin: 0%;
 }
-
-
-.cells {
-    border: 1px solid black;
+/* .cells {
+    background-color: white;
+    border: thin solid gray;
+} */
+.red {
+    background-color: red;
+    border: thin solid gray;
 }
-
 #container {
     display: grid;
     grid-template-columns: repeat(16, 6.25fr);
     grid-template-rows: repeat(16, 66.25fr);
-    background-color: rgb(23, 23, 122);
-    height: 100vh;
-    width: 100vw;
+    /* background-color: rgb(23, 23, 122); */
+    height: 90vh;
+    width: 90vw;
+    margin: 10px;
+}
+#fuckers {
+    height: 100px;
+    width: 100px;
+    background-color: green;
 }
